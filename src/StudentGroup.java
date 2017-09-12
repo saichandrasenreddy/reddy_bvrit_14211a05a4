@@ -106,7 +106,7 @@ public class StudentGroup implements StudentArrayOperation {
 		else {
 		for(i=0;i<students.length;i++) {
 			if(students[index]==students[i])
-				students[i]=students[i+1];
+				students[index]=students[i+1];
 		}
 		}
 		}
